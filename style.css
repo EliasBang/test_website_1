@@ -1,0 +1,59 @@
+body {
+    background-color: #0077c0;
+    background-image: url("https://live-production.wcms.abc-cdn.net.au/adb9895abd337e6fc67aaf608563884a?impolicy=wcms_crop_resize&cropH=2070&cropW=3680&xPos=0&yPos=193&width=862&height=485");
+    background-size: cover;
+    text-align: center;
+    font-family: Outfit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #abd8ea;
+    border-radius: 15px;
+}
+
+main {
+    background-color: #178fd7;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+footer {
+    background-color: #abd8ea;
+    border-radius: 15px;
+}
+
+footer p {
+    color: black;
+}
+
+h1 {
+    color: black
+}
+
+h2, h3, h4 {
+    color: #ffffff
+}
+
+p {
+    color: #f2f9ff
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ships img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.ships {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
