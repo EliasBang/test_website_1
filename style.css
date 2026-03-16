@@ -1,5 +1,5 @@
 body {
-  background-color: #0077c0;
+  background-color: #003049;
   background-image: url("https://live-production.wcms.abc-cdn.net.au/adb9895abd337e6fc67aaf608563884a?impolicy=wcms_crop_resize&cropH=2070&cropW=3680&xPos=0&yPos=193&width=862&height=485");
   background-size: cover;
   text-align: center;
@@ -10,7 +10,14 @@ body {
 }
 
 header {
-  background-color: #abd8ea;
+  background: #a2d2ff;
+  background: radial-gradient(
+    circle,
+    rgba(162, 210, 255, 1) 0%,
+    rgba(115, 187, 255, 1) 20%,
+    rgba(102, 155, 188, 1) 56%,
+    rgba(65, 127, 176, 1) 100%
+  );
 
   border-radius: 15px;
   min-width: 80vw;
@@ -18,7 +25,14 @@ header {
 }
 
 main {
-  background-color: #178fd7;
+  background: #780000;
+  background: linear-gradient(
+    1deg,
+    rgba(120, 0, 0, 1) 0%,
+    rgba(0, 48, 73, 1) 20%,
+    rgba(102, 155, 188, 1) 100%
+  );
+
   border-radius: 15px;
   width: 75vw;
   padding: 10px;
@@ -27,13 +41,14 @@ main {
 }
 
 main p {
-  color: #f2f9ffd6;
+  color: #003049;
   font-size: large;
 }
 
 main i {
   color: white;
 }
+
 .helge_ingstad img {
   object-fit: cover;
   object-position: top center;
@@ -41,7 +56,15 @@ main i {
 }
 
 footer {
-  background-color: #abd8ea;
+  background: #a2d2ff;
+  background: radial-gradient(
+    circle,
+    rgba(162, 210, 255, 1) 0%,
+    rgba(115, 187, 255, 1) 20%,
+    rgba(102, 155, 188, 1) 56%,
+    rgba(65, 127, 176, 1) 100%
+  );
+
   border-radius: 15px;
   min-width: 80vw;
 }
@@ -53,7 +76,7 @@ footer p {
 }
 
 h1 {
-  color: black;
+  color: #C1121F;
   padding: 0px;
   margin: 5px;
 }
@@ -61,11 +84,11 @@ h1 {
 h2,
 h3,
 h4 {
-  color: #ffffff;
+  color: #fff9ec;
 }
 
 a {
-  color: crimson;
+  color: #c1121f;
   text-decoration: none;
 }
 .portfolio {
